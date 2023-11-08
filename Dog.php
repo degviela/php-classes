@@ -1,19 +1,13 @@
 <?php
 
 require_once ("Animals.php");
-Class Cat
+Class Dog extends Animals
 {
-
-    function __construct(){
-        echo "Puss in Boots";
-    }
     public function birthday(){
         $this->age++;
         echo "Age -" . $this->age;
     }
     static function eat(){
-        echo "I like whiskas!";
+        echo "I like Pedigree";
     }
 }
-
-?>
